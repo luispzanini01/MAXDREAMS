@@ -1,22 +1,23 @@
+
 import React from 'react';
 import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 
 // Components
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import ScrollToTop from './components/ScrollToTop';
-import BookingWidget from './components/BookingWidget';
-import { LanguageProvider } from './components/LanguageContext';
+import Navbar from './components/Navbar.tsx';
+import Footer from './components/Footer.tsx';
+import ScrollToTop from './components/ScrollToTop.tsx';
+import BookingWidget from './components/BookingWidget.tsx';
+import { LanguageProvider } from './components/LanguageContext.tsx';
 
 // Pages
-import Home from './pages/Home';
-import Details from './pages/Details';
-import Gallery from './pages/Gallery';
-import FAQ from './pages/FAQ';
-import Contact from './pages/Contact';
-import Privacy from './pages/Privacy';
-import Terms from './pages/Terms';
+import Home from './pages/Home.tsx';
+import Details from './pages/Details.tsx';
+import Gallery from './pages/Gallery.tsx';
+import FAQ from './pages/FAQ.tsx';
+import Contact from './pages/Contact.tsx';
+import Privacy from './pages/Privacy.tsx';
+import Terms from './pages/Terms.tsx';
 
 const AnimatedRoutes = () => {
   const location = useLocation();
