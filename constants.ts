@@ -1,5 +1,4 @@
-
-import { NavItem, Feature, SpecCategory, FaqItem, GalleryImage, Language } from './types.ts';
+import { NavItem, Feature, SpecCategory, FaqItem, GalleryImage, Language } from './types';
 import { Truck, ShieldCheck, Home, Gauge, Battery, MapPin, Users, Utensils, Tent, Zap } from 'lucide-react';
 
 export const EXTERNAL_BOOKING_URL = 'https://www.goboony.be/campers/belgie/antwerpen/antwerpen/91963';
@@ -175,14 +174,14 @@ export const TRANSLATIONS = {
     hero: {
       tag: 'Mobilhomeverhuur Antwerpen',
       title: 'Je thuis, overal.',
-      subtitle: 'Reis zonder grenzen. Verken het hart van Europa met Wilma, een premium McLouis mobilhome ontworpen voor comfort, betrouwbaarheid en puur ontdekkingsplezier.',
+      subtitle: 'Reis zonder grenzen. Verken het hart van Europa met Wilma, een premium mobilhome ontworpen voor comfort, betrouwbaarheid en puur ontdekkingsplezier.',
       ctaBook: 'Boek je avontuur',
       ctaPhotos: 'Ontdek de galerij',
     },
     story: {
       title: "Het verhaal van Wilma",
       text1: "Op pad met 5 personen. Een droom en een uitdaging tegelijk. Een jaar geleden begon onze zoektocht naar avontuur: meer vrijheid tijdens onze vakantie, maar met alle gewenste comfort. Gaan waar we willen, eenvoudig leven.",
-      text2: "Onze eerste reis maakten we kort na de zomer van 2024 met deze mobilhome, die we op dat moment nog huurden. Na zo’n onvergetelijke ervaring besloten we hem zelf aan te kopen.",
+      text2: "Onze eerste reis maakten we kort na de zomer van 2024 met deze mobilhome, die we op dat moment noch huurden. Na zo’n onvergetelijke ervaring besloten we hem zelf aan te kopen.",
       text3: "Voor ons eigen plezier, maar ook voor verhuur. We willen deze prachtige manier van reizen graag delen door Wilma te huur aan te bieden."
     },
     whyWilma: {
@@ -196,12 +195,12 @@ export const TRANSLATIONS = {
         },
         {
           title: 'Moderne betrouwbaarheid',
-          description: 'Een premium model uit 2023 med volledige verzekering voor totale gemoedsrust.',
+          description: 'Een premium model uit 2023 met volledige verzekering voor totale gemoedsrust.',
           icon: ShieldCheck
         },
         {
           title: 'Veelzijdig koken',
-          description: 'Uitgerust med een 2-pits kooktoestel voor binnen of buiten, inclusief al het nodige keukengerei.',
+          description: 'Uitgerust met een 2-pits kooktoestel voor binnen of buiten, inclusief al het nodige keukengerei.',
           icon: Utensils
         },
         {
@@ -264,7 +263,7 @@ export const TRANSLATIONS = {
       {
         category: 'Voorwaarden',
         question: 'Wat heb ik nodig om met Wilma te mogen rijden?',
-        answer: 'Voor een veilige en zorgeloze reis vragen we dat bestuurders minstens 26 jaar oud zijn en minstens 3 jaar in het bezit zijn van een geldig rijbewijs B, zonder ernstige ongevallen in de laatste 3 jaar.'
+        answer: 'Voor een veilige e zorgeloze reis vragen we dat bestuurders minstens 26 jaar oud zijn en minstens 3 jaar in het bezit zijn van een geldig rijbewijs B, zonder ernstige ongevallen in de laatste 3 jaar.'
       },
       {
         category: 'Gebruiksregels',
@@ -273,17 +272,17 @@ export const TRANSLATIONS = {
       },
       {
         category: 'Gebruiksregels',
-        question: 'Wat is niet toegestaan med Wilma?',
+        question: 'Wat is niet toegestaan met Wilma?',
         answer: 'Om Wilma in topconditie te houden, is roken in de mobilhome niet toegestaan. Festivals en ritten in bergachtig gebied zijn eveneens niet toegestaan. Voor wintersport vragen we u om eerst met ons te overleggen.'
       },
       {
         category: 'Inleveren',
-        question: 'Hoe moet ik Wilma weer inleveren na mijn reis?',
-        answer: 'We ontvangen Wilma graag in dezelfde propere staat als waarin ze vertrok. Gelieve haar in te leveren med een volle dieseltank, lege afvalwatertank en een gereinigd toilet. Voor extra professionele reiniging rekenen we €100 (buitenkant) en €50 (interieur).'
+        question: 'Hoe moet eu Wilma weer inleveren na mijn reis?',
+        answer: 'We ontvangen Wilma graag in dezelfde propere staat als waarin ze vertrok. Gelieve haar in te leveren met een volle dieseltank, lege afvalwatertank e een gereinigd toilet. Voor extra professionele reiniging rekenen we €100 (buitenkant) e €50 (interieur).'
       },
       {
         category: 'Voorraad',
-        question: 'Hoe zit het med het gas voor koken en verwarmen?',
+        question: 'Hoe zit het met het gas voor koken e verwarmen?',
         answer: 'Maak u geen zorgen over ingewikkelde berekeningen. Bij inlevering verrekenen we het gasverbruik eenvoudigweg op basis van gewicht, zodat u enkel betaalt voor wat u effectief verbruikt heeft.'
       },
       {
@@ -293,8 +292,8 @@ export const TRANSLATIONS = {
       },
       {
         category: 'Logistiek',
-        question: 'Wat zijn de gebruikelijke ophaal- en inlevertijden?',
-        answer: 'Normaal gezien kunt u Wilma ophalen tussen 15:00 en 17:00 en brengt u haar terug voor 11:00. We proberen altijd flexibel te zijn als de planning dat toelaat.'
+        question: 'Wat zijn de gebruikelijke ophaal- e inlevertijden?',
+        answer: 'Normaal gezien kunt u Wilma ophalen tussen 15:00 e 17:00 e brengt u haar terug voor 11:00. We proberen altijd flexibel te zijn als de planning dat toelaat.'
       }
     ],
     resources: {
@@ -304,14 +303,14 @@ export const TRANSLATIONS = {
     },
     ui: {
       gallery: 'Fotogalerij',
-      gallerySub: 'Ontdek elk detail van Wilma, van binnen en van buiten.',
+      gallerySub: 'Ontdek elk detail van Wilma, van binnen e van buiten.',
       filters: { all: 'Alles', interior: 'Interieur', exterior: 'Exterieur' },
       hours: 'Ma - Vr: 09:00 - 18:00',
       contact: {
         title: 'Contacteer ons',
         sub: 'Heeft u specifieke vragen over Wilma? Neem contact op via WhatsApp of e-mail.',
         ready: 'Klaar voor avontuur?',
-        bookInstantly: 'Bekijk de beschikbaarheid en boek direct online.',
+        bookInstantly: 'Bekijk de beschikbaarheid e boek direct online.',
         name: 'Volledige naam',
         email: 'E-mailadres',
         phone: 'Telefoon (optioneel)',
@@ -319,7 +318,7 @@ export const TRANSLATIONS = {
         send: 'Bericht verzenden',
         sending: 'Verzenden...',
         success: 'Bericht verzonden!',
-        successSub: 'We hebben uw bericht goed ontvangen e nemen zo snel mogelijk contact med u op.'
+        successSub: 'We hebben uw bericht goed ontvangen e nemen zo snel mogelijk contact met u op.'
       }
     }
   }
@@ -338,7 +337,7 @@ export const CONTACT_INFO = {
 export const GALLERY_IMAGES: GalleryImage[] = [
   // Interior Images (1-12)
   { id: 1, src: 'images/gallery/interior-01.jpg', alt: 'Gezellige eethoek en leefruimte', category: 'interior' },
-  { id: 2, src: 'images/gallery/interior-02.jpg', alt: 'Moderne keuken med 2-pits kooktoestel', category: 'interior' },
+  { id: 2, src: 'images/gallery/interior-02.jpg', alt: 'Moderne keuken met 2-pits kooktoestel', category: 'interior' },
   { id: 3, src: 'images/gallery/interior-03.jpg', alt: 'Ruim alkoofbed boven de cabine', category: 'interior' },
   { id: 4, src: 'images/gallery/interior-04.jpg', alt: 'Comfortabel stapelbed voor de kinderen', category: 'interior' },
   { id: 5, src: 'images/gallery/interior-05.jpg', alt: 'Badkamer en toiletvoorzieningen', category: 'interior' },
@@ -348,11 +347,11 @@ export const GALLERY_IMAGES: GalleryImage[] = [
   { id: 9, src: 'images/gallery/interior-09.jpg', alt: 'Overzicht van de functionele leefruimte', category: 'interior' },
   { id: 10, src: 'images/gallery/interior-10.jpg', alt: 'Zicht op de achterste leefruimte', category: 'interior' },
   { id: 11, src: 'images/gallery/interior-11.jpg', alt: 'Keukenaanrecht en spoelbak', category: 'interior' },
-  { id: 12, src: 'images/gallery/interior-12.jpg', alt: 'Compacte en propere douchecabine', category: 'interior' },
+  { id: 12, src: 'images/gallery/interior-12.jpg', alt: 'Compacte e propere douchecabine', category: 'interior' },
   
   // Exterior Images (13-17)
   { id: 13, src: 'images/gallery/exterior-01.jpg', alt: 'Mobilhome Wilma - Vooraanzicht', category: 'exterior' },
-  { id: 14, src: 'images/gallery/exterior-02.jpg', alt: 'Zijaanzicht med uitgeschoven luifel', category: 'exterior' },
+  { id: 14, src: 'images/gallery/exterior-02.jpg', alt: 'Zijaanzicht met uitgeschoven luifel', category: 'exterior' },
   { id: 15, src: 'images/gallery/exterior-03.jpg', alt: 'Perfecte kampeeropstelling in Antwerpen', category: 'exterior' },
   { id: 16, src: 'images/gallery/exterior-04.jpg', alt: 'Klaar voor een picknick in de buitenlucht', category: 'exterior' },
   { id: 17, src: 'images/gallery/exterior-05.jpg', alt: 'Klaar om de weg op te gaan', category: 'exterior' },
